@@ -19,4 +19,4 @@ seconds = seconds % 60
 hours += minutes // 60
 minutes = minutes % 60
 
-print(hours, minutes, seconds)
+print('{} hours {} minutes {} seconds'.format(hours, seconds, minutes))
